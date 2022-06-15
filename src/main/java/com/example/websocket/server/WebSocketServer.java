@@ -27,7 +27,6 @@ public class WebSocketServer {
 	private Session session;
 	private Long uid;
 
-
 	@OnOpen
 	public void onOpen(Session session, @PathParam("uid") Long uid){
 		this.session = session;
